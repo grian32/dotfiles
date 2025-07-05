@@ -8,4 +8,4 @@ gh auth setup-git
 echo "Setting up git credentials"
 git config --global user.email "grianguy32@gmail.com"
 git config --global user.name "grian32"
-git config commit.gpgsign true
+git config --global commit.gpgsign true
