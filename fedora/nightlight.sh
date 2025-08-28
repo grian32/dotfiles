@@ -1,0 +1,6 @@
+#!/bin/bash
+gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
+gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-automatic false
+gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-from 0.0
+gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-to 24.0
+gsettings set org.gnome.settings-daemon.plugins.color night-light-temperature 6000
