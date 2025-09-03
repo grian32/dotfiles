@@ -1,4 +1,5 @@
 #!/bin/bash
+./manjaro-gnome/setupscripts.sh
 sudo ./manjaro-gnome/setupyay.sh
 ./manjaro-gnome/setupghcli.sh
 ./manjaro-gnome/setupbrave.sh
