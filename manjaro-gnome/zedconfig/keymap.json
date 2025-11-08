@@ -17,5 +17,23 @@
     "bindings": {
       "ctrl-e": "file_finder::Toggle"
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "shift-right": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "shift-left": "workspace::ActivatePaneLeft"
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "shift-right": "workspace::ActivatePaneRight"
+    }
   }
 ]
