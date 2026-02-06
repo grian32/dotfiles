@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Zen Browser
+Path=/home/grian/zen/
+Exec=zen
+Icon=/home/grian/zen.png
+Terminal=false
